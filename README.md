@@ -35,5 +35,5 @@ Questi due moduli presentano all'intern uno script chiamato **run.py** per l'ese
 ## Come eseguire il calcolo delle metriche
 Il modulo analysis contiene lo script **run.py** per il calcolo di metriche e grafici a partire dai risultati prodotti da un determinato algoritmo content-based. Al suo interno vi e' una sezione per la configurazione, dove va riportato il nome dell'algoritmo, il percorso verso i risultati da esso prodotto, il path del dataset utilizzato. Per gli algoritmi di collaborative filtering e' necessario invece lanciare lo script **run_cf.py** vista la modalita' differente con cui Lenskit memorizza i risultati. 
 
-##Come dividere gli utenti in categorie
+## Come dividere gli utenti in categorie
 Il modulo analysis contiene lo script **run_us.py** per la suddivisione degli utenti nelle categorie Cold-Start, Regular, Hot-Start. Al suo interno vi è una sezione per la configurazione, dove va riportato percorso del file contentente le raccomandazioni generate da un qualsiasi algoritmo content-based. 
